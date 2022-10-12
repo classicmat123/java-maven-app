@@ -29,6 +29,7 @@ pipeline {
         stage("deploy") {
             steps {
                 script {
+                   echo "building dockerhub" 
                     echo "deploying"
                     //gv.deployApp()
                 }
